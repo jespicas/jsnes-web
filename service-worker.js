@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "jespicas.github.io/myapp/precache-manifest.e942aa5d8da154fc039db4d3fd74c5bf.js"
+  "jespicas.github.io/precache-manifest.acb090749bbe9f25b0f626021ae5d4ec.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("jespicas.github.io/myapp/index.html", {
+workbox.routing.registerNavigationRoute("jespicas.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
